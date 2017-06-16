@@ -1,0 +1,729 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CLAUSE_NOT_IN_CREATE_TABLE" xml:space="preserve">
+    <value>SAP HANA does not support {0} clause with CREATE TABLE</value>
+  </data>
+  <data name="CF_COLUMN_NAME_FIXED" xml:space="preserve">
+    <value>Column name {0} was changed to {1}</value>
+  </data>
+  <data name="MSG_CORRECTED_IDENTIFIERS" xml:space="preserve">
+    <value>Number of corrected DB objects in the SAP HANA database:</value>
+  </data>
+  <data name="MSG_ERRORS_LIMITATIONS" xml:space="preserve">
+    <value>Number of errors or limitations:</value>
+  </data>
+  <data name="MSG_NUM_OF_NOK_QUERIES" xml:space="preserve">
+    <value>Number of statements converted with errors or limitations: {0}</value>
+  </data>
+  <data name="MSG_NUM_OF_OK_QUERIES" xml:space="preserve">
+    <value>Number of statements converted without warnings or errors: {0}</value>
+  </data>
+  <data name="MSG_NUM_OF_QUERIES" xml:space="preserve">
+    <value>Total number of statements: {0}</value>
+  </data>
+  <data name="MSG_SUMINFO_UNSUPPORTED_FEATURES" xml:space="preserve">
+    <value>Number of features that are not supported by the converter:</value>
+  </data>
+  <data name="MSG_TRANSLATING_QUERY" xml:space="preserve">
+    <value>Converting statement {0} (out of {1})...</value>
+  </data>
+  <data name="NO_AS_CLAUSE" xml:space="preserve">
+    <value>SAP HANA does not support the AS clause</value>
+  </data>
+  <data name="NO_AS_FILETABLE" xml:space="preserve">
+    <value>SAP HANA does not support the AS FileTable</value>
+  </data>
+  <data name="NO_BROWSE_ON_HANA" xml:space="preserve">
+    <value>SAP HANA does not support the FOR BROWSE clause</value>
+  </data>
+  <data name="NO_CLUSTERED_CLAUSE_FOR_PRIMARY_KEY" xml:space="preserve">
+    <value>PRIMARY KEY column constraint in SAP HANA does not support the CLUSTERED clause</value>
+  </data>
+  <data name="NO_CLUSTERED_INDEX" xml:space="preserve">
+    <value>SAP HANA does not support the CLUSTERED index</value>
+  </data>
+  <data name="NO_COLUMN_CONSTRAINT" xml:space="preserve">
+    <value>Column constraint in SAP HANA does not support {0}</value>
+  </data>
+  <data name="NO_COLUMN_CONSTRAINTS" xml:space="preserve">
+    <value>SAP HANA does not support MS SQL column constraint</value>
+  </data>
+  <data name="NO_COLUMN_DEFINITION" xml:space="preserve">
+    <value>Column definition in SAP HANA does not support {0}</value>
+  </data>
+  <data name="NO_COMPUTED_COLUMN_DEFINITION" xml:space="preserve">
+    <value>SAP HANA does not support the computed column definition</value>
+  </data>
+  <data name="NO_COMPUTE_ON_HANA" xml:space="preserve">
+    <value>SAP HANA does not support the COMPUTE clause</value>
+  </data>
+  <data name="NO_DESC_FOR_INDEX" xml:space="preserve">
+    <value>SAP HANA does not support the DESC and ASC indexes</value>
+  </data>
+  <data name="NO_EXEC_IN_INSERT" xml:space="preserve">
+    <value>INSERT INTO statement does not support EXEC; use EXEC('insert into table '+ originalstatement)</value>
+  </data>
+  <data name="NO_EXEC_SP_IN_INSERT" xml:space="preserve">
+    <value>INSERT INTO statement does not support EXEC; put INSERT statement directly into stored procedure</value>
+  </data>
+  <data name="NO_FILETSTREAM_ON_FOR_CREATE_INDEX" xml:space="preserve">
+    <value>CREATE index in SAP HANA does not support the FILESTREAM_ON clause</value>
+  </data>
+  <data name="NO_FROM_CLAUSE" xml:space="preserve">
+    <value>SAP HANA does not support additional table sources in UPDATE/DELETE statement; manually rewrite the FROM clause for specifying JOIN to a subquery in WHERE clause</value>
+  </data>
+  <data name="NO_FUNCTION_NTILE" xml:space="preserve">
+    <value>SAP HANA does not support ranking function NTILE</value>
+  </data>
+  <data name="NO_FUNCTION_RANKING" xml:space="preserve">
+    <value>SAP HANA does not support ranking function {0}</value>
+  </data>
+  <data name="NO_INCLUDE_CLAUSE" xml:space="preserve">
+    <value>CREATE index in SAP HANA dose not support the INCLUDE clause</value>
+  </data>
+  <data name="NO_INSERT_TARGET_IN_INSERT" xml:space="preserve">
+    <value>SAP HANA does not support InsertTarget</value>
+  </data>
+  <data name="NO_LINKED_SERVER" xml:space="preserve">
+    <value>You cannot execute queries on a linked DB server</value>
+  </data>
+  <data name="NO_MODULE_NUMBER_IN_EXEC" xml:space="preserve">
+    <value>SAP HANA does not support module number in the EXEC statement</value>
+  </data>
+  <data name="NO_ON_CLAUSE_FOR_CREATE_INDEX" xml:space="preserve">
+    <value>CREATE index in SAP HANA does not support the ON clause</value>
+  </data>
+  <data name="NO_OPTION_CLAUSE" xml:space="preserve">
+    <value>SAP HANA does not support the OPTION clause</value>
+  </data>
+  <data name="NO_OUTPUT_CLAUSE" xml:space="preserve">
+    <value>SAP HANA does not support the OUTPUT clause</value>
+  </data>
+  <data name="NO_PARAMS_IN_EXEC" xml:space="preserve">
+    <value>SAP HANA does not support parameters in the EXEC statement</value>
+  </data>
+  <data name="NO_PRECISION_LEN_IN_DATETIME" xml:space="preserve">
+    <value>Length for datetime2 or time type was removed</value>
+  </data>
+  <data name="NO_PRIMARY_KEY_COLUMN_CONSTRAINT" xml:space="preserve">
+    <value>PRIMARY KEY column constraint in SAP HANA does not support {0}</value>
+  </data>
+  <data name="NO_PRIMARY_KEY_TABLE_CONSTRAINT" xml:space="preserve">
+    <value>PRIMARY KEY table constraint in SAP HANA does not support {0}</value>
+  </data>
+  <data name="NO_RET_VAR_IN_EXEC" xml:space="preserve">
+    <value>SAP HANA does not support return variables in the EXEC statement</value>
+  </data>
+  <data name="NO_TABLESAMPLE" xml:space="preserve">
+    <value>SAP HANA does not support the TABLESAMPLE feature in TSQL</value>
+  </data>
+  <data name="NO_TABLE_CONSTRAINT" xml:space="preserve">
+    <value>SAP HANA does not support table constraint {0}</value>
+  </data>
+  <data name="NO_TABLE_HINTS" xml:space="preserve">
+    <value>SAP HANA does not support table hints for query optimizer in TSQL</value>
+  </data>
+  <data name="NO_TOP_CLAUSE" xml:space="preserve">
+    <value>SAP HANA does not support the TOP clause</value>
+  </data>
+  <data name="NO_WHERE_CLAUSE_FOR_CREATE_INDEX" xml:space="preserve">
+    <value>CREATE index in SAP HANA does not support the WHERE clause</value>
+  </data>
+  <data name="NO_WITH_CHECK_FOR_ALTER_TABLE" xml:space="preserve">
+    <value>ALTER TABLE in SAP HANA does not support WITH CHECK</value>
+  </data>
+  <data name="NO_WITH_CLAUSE" xml:space="preserve">
+    <value>SAP HANA does not support the TSQL WITH clause</value>
+  </data>
+  <data name="NO_WITH_ON_HANA" xml:space="preserve">
+    <value>SAP HANA does not support the WITH clause</value>
+  </data>
+  <data name="TYPE_NOT_SUPPORTED" xml:space="preserve">
+    <value>SAP HANA does not support type {0}</value>
+  </data>
+  <data name="TYPE_NOT_SUPPORTED_BY_STRINGIFIER" xml:space="preserve">
+    <value>Converter does not support type {0}</value>
+  </data>
+  <data name="WARN_DUMMY_TABLE" xml:space="preserve">
+    <value>Use FROM DUMMY if there is no FROM clause in the SELECT statement</value>
+  </data>
+  <data name="WARN_INSERT_DIVIDED" xml:space="preserve">
+    <value>INSERT statements with values for multiple rows have been divided into separate insertions</value>
+  </data>
+  <data name="WARN_DROP_DIVIDED" xml:space="preserve">
+    <value>DROP statements for multiple tables have been divided into separate DROP statements</value>
+  </data>
+  <data name="WARN_NO_ACTION_IN_ALTER_TABLE" xml:space="preserve">
+    <value>No Action found in ALTER TABLE statement</value>
+  </data>
+  <data name="WARN_NO_COLUMNS_FOR_PRIMARY_KEY" xml:space="preserve">
+    <value>Define columns in the PRIMARY KEY table constraint</value>
+  </data>
+  <data name="WARN_NO_COLUMNS_IN_CREATE" xml:space="preserve">
+    <value>Define columns in the CREATE TABLE statement</value>
+  </data>
+  <data name="WARN_NO_COLUMNS_IN_CREATE_INDEX" xml:space="preserve">
+    <value>Specify column names in the CREATE index</value>
+  </data>
+  <data name="WARN_NO_COLUMNS_IN_SELECT" xml:space="preserve">
+    <value>Specify column names in the SELECT clause</value>
+  </data>
+  <data name="WARN_NO_FUNCTION_CONVERT" xml:space="preserve">
+    <value>SAP HANA does not support function CONVERT; use the CAST function or implicit casting functions</value>
+  </data>
+  <data name="WARN_NO_INDEX_NAME_IN_CREATE" xml:space="preserve">
+    <value>Specify index names in the CREATE index</value>
+  </data>
+  <data name="WARN_NO_TABLE_NAME_IN_CREATE_INDEX" xml:space="preserve">
+    <value>Specify table names in the CREATE index</value>
+  </data>
+  <data name="NO_CLUSTERED_FOR_UNIQUE_COLUMN" xml:space="preserve">
+    <value>UNIQUE column constraint in SAP HANA does not support the CLUSTERED clause</value>
+  </data>
+  <data name="NO_TABLE_FOR_INDEX" xml:space="preserve">
+    <value>SAP HANA does not support TABLE specification for identification of index; use unique index name in schema</value>
+  </data>
+  <data name="NO_WITH_OPTIONS_FOR_DROP_INDEX" xml:space="preserve">
+    <value>SAP HANA does not support the WITH option for dropping indexes</value>
+  </data>
+  <data name="WARN_DROP_INDEX_DIVIDED" xml:space="preserve">
+    <value>DROP index with multiple indexes have been divided into separate DROP indexes</value>
+  </data>
+  <data name="NO_ALL_INDEXES" xml:space="preserve">
+    <value>You cannot use ALL to cover all indexes of the given table; use specific index name</value>
+  </data>
+  <data name="NO_OPTION_ALLOWED_IN_REBUILD" xml:space="preserve">
+    <value>SAP HANA does not support any specification including option {0} in REBUILD</value>
+  </data>
+  <data name="ONLY_REBUILD_IN_ALTER_INDEX" xml:space="preserve">
+    <value>ALTER index in SAP HANA only allows operation REBUILD; {0} is not supported in ALTER INDEX</value>
+  </data>
+  <data name="NO_ALTER_VIEW" xml:space="preserve">
+    <value>SAP HANA does not support the ALTER VIEW statement; delete existing view and create a new one</value>
+  </data>
+  <data name="NO_ATTRIBUTE_IN_CREATE_VIEW" xml:space="preserve">
+    <value>CREATE VIEW in SAP HANA does not support attributes ENCRYPTION, SCHEMABINDING, and VIEW_METADATA</value>
+  </data>
+  <data name="NO_CHECK_OPTION" xml:space="preserve">
+    <value>SAP HANA does not support the WITH CHECK OPTION clause</value>
+  </data>
+  <data name="WARN_DROP_VIEW_DIVIDED" xml:space="preserve">
+    <value>DROP VIEW with multiple views have been divided into separate DROP VIEW statements</value>
+  </data>
+  <data name="MSG_STATEMENT_NOT_SUPPORTED" xml:space="preserve">
+    <value>SAP HANA does not support statement at {0}: {1}</value>
+  </data>
+  <data name="MSG_INTERNAL_ERROR" xml:space="preserve">
+    <value>Internal error: {0}</value>
+  </data>
+  <data name="NO_BITWISE_OR_OPERATOR" xml:space="preserve">
+    <value>SAP HANA dose not support bitwise operator OR</value>
+  </data>
+  <data name="NO_BITWISE_XOR_OPERATOR" xml:space="preserve">
+    <value>SAP HANA does not support bitwise operator XOR</value>
+  </data>
+  <data name="NO_GO_STATEMENT" xml:space="preserve">
+    <value>SAP HANA does not support the GO statement</value>
+  </data>
+  <data name="CF_COLUMN_NOT_FOUND" xml:space="preserve">
+    <value>Column {0} not found in given tables</value>
+  </data>
+  <data name="MSG_COLUMNS_NOT_FOUND" xml:space="preserve">
+    <value>Number of columns that cannot be found during verification:</value>
+  </data>
+  <data name="NO_DEFAULT_VALUES_PROCEDURE_INPUT_PARAMETERS" xml:space="preserve">
+    <value>SAP HANA does not support default values for PROCEDURE input parameters</value>
+  </data>
+  <data name="NO_NAMED_TRANSACTIONS" xml:space="preserve">
+    <value>SAP HANA does not support named transactions</value>
+  </data>
+  <data name="NO_RETURN_VALUE" xml:space="preserve">
+    <value>SAP HANA does not support returning values using the RETURN statement</value>
+  </data>
+  <data name="WARN_DROP_INDEX_IN_PROC" xml:space="preserve">
+    <value>SAP HANA does not support the DROP INDEX statement inside PROCEDURE; use EXEC('DROP INDEX...')</value>
+  </data>
+  <data name="NO_PERCENT" xml:space="preserve">
+    <value>SAP HANA does not support percent in the TOP clause</value>
+  </data>
+  <data name="NO_CHECK_CLAUSE" xml:space="preserve">
+    <value>SAP HANA does not support the CHECK or NO CHECK statement</value>
+  </data>
+  <data name="NO_OPTIONS_FOR_DROP_INDEX" xml:space="preserve">
+    <value>SAP HANA does not support options in the DROP INDEX statement</value>
+  </data>
+  <data name="NO_TRY_CATCH_STATEMENT" xml:space="preserve">
+    <value>SAP HANA does not support the TRY or CATCH statement</value>
+  </data>
+  <data name="WARN_NO_NONCLUSTERED" xml:space="preserve">
+    <value>SAP HANA does not support the NONCLUSTERED keyword; all SAP HANA indexes are NONCLUSTERED</value>
+  </data>
+  <data name="MOD_STDEV_TO_STDDEV" xml:space="preserve">
+    <value>STDEV was changed to STDDEV</value>
+  </data>
+  <data name="NO_FUNCTION_DATEDIFF" xml:space="preserve">
+    <value>SAP HANA supports only day and second as parameters for DATEDIFF</value>
+  </data>
+  <data name="NO_FUNCTION_SIMPLE_AGGR" xml:space="preserve">
+    <value>SAP HANA does not support function {0}</value>
+  </data>
+  <data name="NO_FUNCTION_BITWISENOT" xml:space="preserve">
+    <value>SAP HANA does not support {0}</value>
+  </data>
+  <data name="NO_FUNCTION_MODULO" xml:space="preserve">
+    <value>SAP HANA does not support modulo function</value>
+  </data>
+  <data name="NO_FUNCTION_GROUPING" xml:space="preserve">
+    <value>SAP HANA does not support the GROUPING function</value>
+  </data>
+  <data name="NO_CLAUSE_DEFAULT_VALUES" xml:space="preserve">
+    <value>SAP HANA does not support the DEFAULT VALUES clause</value>
+  </data>
+  <data name="NO_TOP_WITH_TIES" xml:space="preserve">
+    <value>SAP HANA does not support WITH TIES in the TOP clause</value>
+  </data>
+  <data name="MSG_NO_CONFIG_FILE" xml:space="preserve">
+    <value>Configuration file not found; only input arguments will be processed</value>
+  </data>
+  <data name="NO_FUNCTION_DATEADD" xml:space="preserve">
+    <value>SAP HANA supports only second, day, month, and year as parameters for DATEADD</value>
+  </data>
+  <data name="NO_FUNCTION_DATENAME" xml:space="preserve">
+    <value>SAP HANA supports only second, minute, hour, weekday, dayofyear, day, week, month, quarter, and year as parameters for DATENAME</value>
+  </data>
+  <data name="NO_FUNCTION_DATEPART" xml:space="preserve">
+    <value>SAP HANA supports only second, minute, hour, day, dw, dayofyear, week, month, and year as parameters for DATEPART</value>
+  </data>
+  <data name="ABOUT" xml:space="preserve">
+    <value>{0} Version {1}</value>
+  </data>
+  <data name="MSG_MISSING_SCHEMA_ON_SERVER" xml:space="preserve">
+    <value>Schema "{0}" does not exist in the SAP HANA database server {1}</value>
+  </data>
+  <data name="NO_CHANGE_TRACKING_CLAUSE" xml:space="preserve">
+    <value>SAP HANA does not support the CHANGE_TRACKING clause</value>
+  </data>
+  <data name="NO_FILETABLE_CLAUSE" xml:space="preserve">
+    <value>SAP HANA does not support the FILETABLE clause</value>
+  </data>
+  <data name="NO_LOCK_ESCALATION_CLAUSE" xml:space="preserve">
+    <value>SAP HANA does not support the LOCK_ESCALATION clause</value>
+  </data>
+  <data name="NO_REBUILD_CLAUSE" xml:space="preserve">
+    <value>SAP HANA does not support the REBUILD clause</value>
+  </data>
+  <data name="NO_SET_CLAUSE" xml:space="preserve">
+    <value>SAP HANA does not support the SET clause</value>
+  </data>
+  <data name="NO_SWITH_CLAUSE" xml:space="preserve">
+    <value>SAP HANA does not support the SWITCH clause</value>
+  </data>
+  <data name="NO_TRIGGER_CLAUSE" xml:space="preserve">
+    <value>SAP HANA does not support the TRIGGER clause</value>
+  </data>
+  <data name="INF_AUTO_SP_FOR_COMPLEX_QUERIES" xml:space="preserve">
+    <value>Enable automatic creation of stored procedures in case of complex queries</value>
+  </data>
+  <data name="INF_DISPLAY_HELP" xml:space="preserve">
+    <value>Display help</value>
+  </data>
+  <data name="INF_ENABLE_CASE_FIXER_ALGORITHM" xml:space="preserve">
+    <value>Enable case fixer</value>
+  </data>
+  <data name="INF_ENABLE_FORMATTER" xml:space="preserve">
+    <value>Enable formatter</value>
+  </data>
+  <data name="INF_EXAMPLES" xml:space="preserve">
+    <value>Examples:</value>
+  </data>
+  <data name="INF_EXAMPLE_1ST_LINE" xml:space="preserve">
+    <value>Converter -i input.sql -o output.sql</value>
+  </data>
+  <data name="INF_EXAMPLE_2ND_LINE" xml:space="preserve">
+    <value>Converter -c -f -i input.sql -o output.sql</value>
+  </data>
+  <data name="INF_EXCLUDE_TOOLS_COMMENTS_IN_OUTPUT" xml:space="preserve">
+    <value>Exclude conversion comments from the output file</value>
+  </data>
+  <data name="INF_PATH_TO_INPUT" xml:space="preserve">
+    <value>Path to input Transact SQL file</value>
+  </data>
+  <data name="INF_PATH_TO_OUTPUT" xml:space="preserve">
+    <value>Path to output SAP HANA SQL file</value>
+  </data>
+  <data name="INF_PRINT_VERSION" xml:space="preserve">
+    <value>Print version</value>
+  </data>
+  <data name="INF_SAP_HANA_PWD" xml:space="preserve">
+    <value>SAP HANA database password</value>
+  </data>
+  <data name="INF_SAP_HANA_SCHEMA" xml:space="preserve">
+    <value>SAP HANA schema</value>
+  </data>
+  <data name="INF_SAP_HANA_SERVER_NAME" xml:space="preserve">
+    <value>SAP HANA database server name</value>
+  </data>
+  <data name="INF_SAP_HANA_USER_NAME" xml:space="preserve">
+    <value>SAP HANA database user name</value>
+  </data>
+  <data name="INF_SUPPORTED_OPTIONS" xml:space="preserve">
+    <value>Supported options:</value>
+  </data>
+  <data name="INF_TRANSLATE_TSQL_INTO_HANA" xml:space="preserve">
+    <value>Convert Transact SQL statements to SAP HANA SQL statements</value>
+  </data>
+  <data name="INF_TRANSLATOR_OPTIONS" xml:space="preserve">
+    <value>Converter &lt;options&gt;</value>
+  </data>
+  <data name="INF_USAGE" xml:space="preserve">
+    <value>Usage:</value>
+  </data>
+  <data name="MSG_INVALID_CONFIG_OPTIONS" xml:space="preserve">
+    <value>Invalid configuration option "{0}"</value>
+  </data>
+  <data name="MSG_INVALID_PARAMETER" xml:space="preserve">
+    <value>Invalid parameter "{0}"</value>
+  </data>
+  <data name="MSG_INVALID_VALUE_FOR_BOOLEAN" xml:space="preserve">
+    <value>Invalid value "{0}" for boolean configuration option "{1}"; use "true" or "false"</value>
+  </data>
+  <data name="MSG_NO_VALUE_PROVIDED_FOR_PARAM" xml:space="preserve">
+    <value>No value provided for parameter {0}</value>
+  </data>
+  <data name="MSG_INPUT_FILE_WAS_NOT_FOUND" xml:space="preserve">
+    <value>Input file {0} not found</value>
+  </data>
+  <data name="MSG_INVALID_INPUT_FILE_NAME" xml:space="preserve">
+    <value>Invalid input file name "{0}"</value>
+  </data>
+  <data name="MSG_PRESS_ANY_KEY_TO_CONTINUE" xml:space="preserve">
+    <value>Press any key to continue...</value>
+  </data>
+  <data name="MSG_REMOVED_LENGTHS_FOR_DATETIME2" xml:space="preserve">
+    <value>Length of the datetime2 or time type was removed</value>
+  </data>
+  <data name="MSG_TECHNICAL_INFO" xml:space="preserve">
+    <value>Technical info:</value>
+  </data>
+  <data name="MSG_UNABLE_TO_VERIFY_IDENTFIERS" xml:space="preserve">
+    <value>Cannot verify DB objects in queries against existing DB objects in the SAP HANA database.</value>
+  </data>
+  <data name="NO_COLLATE_CLAUSE" xml:space="preserve">
+    <value>Column definition in SAP HANA does not support the COLLATE clause</value>
+  </data>
+  <data name="NO_COLLATION_NOT_SUPPORTED_AS_COLUMN_CONSTRAINT" xml:space="preserve">
+    <value>Column constraint in SAP HANA does not support COLLATION</value>
+  </data>
+  <data name="NO_COLUMNS_DEFINED_FOR_PK" xml:space="preserve">
+    <value>Define columns in the PRIMARY KEY table constraint</value>
+  </data>
+  <data name="NO_COMPUTED_COLUMN" xml:space="preserve">
+    <value>SAP HANA does not support computed column definition</value>
+  </data>
+  <data name="NO_DATETIMEOFFSET" xml:space="preserve">
+    <value>SAP HANA does not support type datetimeoffset</value>
+  </data>
+  <data name="NO_FILESTREAM_CLAUSE" xml:space="preserve">
+    <value>Column definition in SAP HANA does not support the FILESTREAM clause</value>
+  </data>
+  <data name="NO_IDENTITY_CLAUSE" xml:space="preserve">
+    <value>Column definition in SAP HANA does not support the IDENTITY clause</value>
+  </data>
+  <data name="NO_INTERNAL_ERROR" xml:space="preserve">
+    <value>Internal error; unexpected data type</value>
+  </data>
+  <data name="NO_NONE_OF_MSSQL_COL_CONSTRAINT_SUPPORTED" xml:space="preserve">
+    <value>SAP HANA does not support MS SQL column constraint</value>
+  </data>
+  <data name="NO_ROWGUIDCOL_CLAUSE" xml:space="preserve">
+    <value>Column definition in SAP HANA does not support the ROWGUIDCOL clause</value>
+  </data>
+  <data name="NO_SPARSE_CLAUSE" xml:space="preserve">
+    <value>Column definition in SAP HANA does not support the SPARSE clause</value>
+  </data>
+  <data name="NO_SPARSE_NOT_SUPPORTED_AS_COLUMN_CONSTRAINT" xml:space="preserve">
+    <value>Column constraint in SAP HANA does not support the SPARSE clause</value>
+  </data>
+  <data name="NO_TYPE_HIERARCHYID" xml:space="preserve">
+    <value>SAP HANA does not support type hierarchyid</value>
+  </data>
+  <data name="NO_TYPE_SQL_VARIANT" xml:space="preserve">
+    <value>SAP HANA does not support type sql_variant</value>
+  </data>
+  <data name="NO_TYPE_XML" xml:space="preserve">
+    <value>SAP HANA does not support type xml</value>
+  </data>
+  <data name="NO_WITH_CHECK_NOT_SUPPORTED_FOR_ALTER_TABLE" xml:space="preserve">
+    <value>ALTER TABLE in SAP HANA does not support WITH CHECK</value>
+  </data>
+  <data name="WARN_FUNCTION_AS_ARGUMENT_IN_DATE_FUNCTIONS" xml:space="preserve">
+    <value>If you use function as an argument for date function take care of handling result. Integer is converted as '1900-01-01 00:00:00.000' + value on MSSQL. Converting integer to date raises error on HANA.</value>
+  </data>
+  <data name="MSG_SERVER_DBPASSWD_MISSING" xml:space="preserve">
+    <value>Database password missing</value>
+  </data>
+  <data name="MSG_SERVER_DBSCHEMA_MISSING" xml:space="preserve">
+    <value>Schema name missing</value>
+  </data>
+  <data name="MSG_SERVER_DBSERVER_MISSING" xml:space="preserve">
+    <value>Server name missing</value>
+  </data>
+  <data name="MSG_SERVER_DBUSER_MISSING" xml:space="preserve">
+    <value>Specify database user name</value>
+  </data>
+  <data name="MSG_SERVER_PARAMETER_MISSING" xml:space="preserve">
+    <value>Cannot connect to the SAP HANA DB server; specify databse settings:</value>
+  </data>
+  <data name="NO_OPTION_FOR_PROCEDURE" xml:space="preserve">
+    <value>Procedure in SAP HANA does not support option {0}</value>
+  </data>
+  <data name="NO_RECOMPILE_ON_HANA" xml:space="preserve">
+    <value>SAP HANA does not support option Recompile</value>
+  </data>
+  <data name="NO_DEALLOCATE_STATEMENT" xml:space="preserve">
+    <value>SAP HANA does not support the DEALLOCATE statement</value>
+  </data>
+  <data name="NO_ALTER_STATEMENT" xml:space="preserve">
+    <value>SAP HANA does not support statement ALTER PROCEDURE</value>
+  </data>
+  <data name="NO_CURSOR_AS_VARIABLE" xml:space="preserve">
+    <value>Variable cursor identifier does not exist in SAP HANA </value>
+  </data>
+  <data name="NO_INTEGER_AS_ARGUMENT_IN_DATE_FUNCTION" xml:space="preserve">
+    <value>Integer used as argument in date function was converted to ADD_DAYS('1900-01-01 00:00:00.000', value); using integer as argument in date function will cause error in SAP HANA</value>
+  </data>
+  <data name="CF_CONSTRAINT_NOT_FOUND" xml:space="preserve">
+    <value>Constraint {0} not found in given tables</value>
+  </data>
+  <data name="NO_SIMPLE_STATEMENTS_IN_TRIGGERS" xml:space="preserve">
+    <value>SAP HANA does not support simple statements in triggers.</value>
+  </data>
+  <data name="NO_FOR_UPDATE_IN_CURSOR" xml:space="preserve">
+    <value>You cannot define updatable columns for Cursor in SAP HANA</value>
+  </data>
+  <data name="NO_CURSOR_IN_WHERE_CLAUSE" xml:space="preserve">
+    <value>SAP HANA does not support the usage of cursor in the WHERE clause</value>
+  </data>
+  <data name="CF_OBJECT_NAME_FIXED" xml:space="preserve">
+    <value>{0} name {1} was changed to {2}</value>
+  </data>
+  <data name="CF_OBJECT_NOT_FOUND" xml:space="preserve">
+    <value>{0} {1} not found in given schemas</value>
+  </data>
+  <data name="NO_SET_DATEFORMAT" xml:space="preserve">
+    <value>SAP HANA does not support setting global DATEFORMAT in separate SET statements</value>
+  </data>
+  <data name="NO_SET_DATEFIRST" xml:space="preserve">
+    <value>SAP HANA does not support customizing the first weekday</value>
+  </data>
+  <data name="NO_SETTING_SUPPORTED" xml:space="preserve">
+    <value>SAP HANA does not support setting {0}</value>
+  </data>
+  <data name="NO_UPDATE_STATISTICS" xml:space="preserve">
+    <value>SAP HANA does not support UPDATE STATISTICS statements</value>
+  </data>
+  <data name="NO_TSQL_SETTINGS_SUPPORTED" xml:space="preserve">
+    <value>SAP HANA does not support TSQL settings</value>
+  </data>
+  <data name="WARN_FUNCTION_CONVERTED_TO_PROC" xml:space="preserve">
+    <value>SAP HANA does not support the CREATE FUNCTION statement; CREATE FUNCTION was changed to CREATE PROCEDURE</value>
+  </data>
+  <data name="NO_FUNCTION_OPTION" xml:space="preserve">
+    <value>Procedures in SAP HANA does not support options in the TSQL functions</value>
+  </data>
+  <data name="NO_FUNCTION_RETURN_VALUE" xml:space="preserve">
+    <value>Procedures in SAP HANA does not support returning values using the TSQL functions</value>
+  </data>
+  <data name="NO_COLLATE_SPECIFICATION" xml:space="preserve">
+    <value>Converted does not support the COLLATE specification.</value>
+  </data>
+  <data name="INF_CREATE_COMMAND_LINE" xml:space="preserve">
+    <value>Create a command line string from configuration file only</value>
+  </data>
+  <data name="INF_GUI" xml:space="preserve">
+    <value>Use graphic user interface.</value>
+  </data>
+  <data name="INF_MS_DATABASE" xml:space="preserve">
+    <value>MS SQL database</value>
+  </data>
+  <data name="INF_MS_PWD" xml:space="preserve">
+    <value>MS SQL database password</value>
+  </data>
+  <data name="INF_MS_SERVER_NAME" xml:space="preserve">
+    <value>MS SQL database server name</value>
+  </data>
+  <data name="INF_MS_USER_NAME" xml:space="preserve">
+    <value>MS SQL database user name</value>
+  </data>
+  <data name="INF_TRANSLATOR_RUNNING" xml:space="preserve">
+    <value>Translating input file, please wait...</value>
+  </data>
+  <data name="MSG_INPUT_FILE_NOT_SAVED" xml:space="preserve">
+    <value>Cannot save the input file</value>
+  </data>
+  <data name="MSG_OUTPUT_FILE_NOT_SAVED" xml:space="preserve">
+    <value>Cannot save the output file</value>
+  </data>
+  <data name="MSG_CONFIG_FILE_NOT_SAVED" xml:space="preserve">
+    <value>Cannot save the configuration file</value>
+  </data>
+  <data name="WARN_INTERNAL_ERROR" xml:space="preserve">
+    <value>Internal error: {0};converter will be closed</value>
+  </data>
+  <data name="ERR_CRITICAL_SYNTAX_ERROR" xml:space="preserve">
+    <value>--Statements in the input file contain errors; conversion was canceled</value>
+  </data>
+  <data name="INF_PATH_TO_TOKEN" xml:space="preserve">
+    <value>Path to token Transact SQL file</value>
+  </data>
+  <data name="MSG_NO_TOKEN_FILE" xml:space="preserve">
+    <value>Token file not found; variables will not be correctly matched to their values</value>
+  </data>
+  <data name="INF_VARTOKEN" xml:space="preserve">
+    <value>Regular expression for variables in statements</value>
+  </data>
+  <data name="MSG_INVALID_TOKEN_OPTIONS" xml:space="preserve">
+    <value>Invalid token option "{0}"</value>
+  </data>
+  <data name="NO_RAD_DEG_FUNCTIONS" xml:space="preserve">
+    <value>SAP HANA does not contain functions for convertion between radians and degrees. Be careful for precision of conversion.</value>
+  </data>
+  <data name="NO_RAND_WITH_SEED" xml:space="preserve">
+    <value>SAP HANA does not support setting seed number to RAND function</value>
+  </data>
+  <data name="MSG_CASEFIXING_STEP" xml:space="preserve">
+    <value>Case fixing identifiers</value>
+  </data>
+  <data name="MSG_CONVERSION_STAGE" xml:space="preserve">
+    <value>Conversion of TSQL queries into SQL Script:</value>
+  </data>
+  <data name="MSG_CONVERSION_STEP" xml:space="preserve">
+    <value>Statement conversion</value>
+  </data>
+  <data name="MSG_DIFFERENT_STATEMENTS_COUNT" xml:space="preserve">
+    <value>Number of input statements, conversions and converted statements may differ.</value>
+  </data>
+  <data name="MSG_INPUT_STATEMENTS_FOUND" xml:space="preserve">
+    <value>Input statements found: </value>
+  </data>
+  <data name="MSG_SCAN_INPUT_STATEMENTS" xml:space="preserve">
+    <value>Scan input statements</value>
+  </data>
+</root>

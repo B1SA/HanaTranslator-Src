@@ -1,0 +1,20 @@
+// If UseCaseFixer=true, DB objects (tables, columns,...) will be verified.
+// If UseCaseFixer=false, DB objects will NOT be verified but the SQL converter will run faster.
+UseCaseFixer=false
+// Case fixer will use the following DB settings:
+DBServer=10.10.10.10:30115
+DBSchema=SBODEMOUS
+DBUser=SYSTEM
+DBPasswd=1234
+// End of DB settings for the case fixer
+// Exclude conversion comments from the output file or not
+DisableComments=false
+// Specify names for the input and output files
+InputFile=inputFile.sql
+OutputFile=outputFile.sql
+// Format the output file in clean and professional SQL layout or not
+Formatter=false
+// Definition of tokens
+TokenFile=tokenFile.txt
+// Starts with GUI
+GUI=true

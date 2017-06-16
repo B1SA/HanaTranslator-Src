@@ -1,0 +1,3 @@
+VarToken=\$\[[\$]*[0-9A-Z_a-z\.\"]+\]
+VarToken=\[\%[0-9]+\]
+IdToken=\[TABLE[0-9]+\]

@@ -1,0 +1,12 @@
+﻿Formatter=false
+UseCaseFixer=false
+CreateProcedure=false
+DBUser=SYSTEM
+DisableComments=false
+DBServer=10.55.178.115:30115
+OutputFile=Tokens_HANA.sql
+DBPasswd=manager
+DBSchema=SBODEMOUS
+
+OutputFile=outputFile.txt
+TokenFile=tokenFile.txt

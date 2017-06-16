@@ -1,0 +1,3 @@
+VarToken=\$\[[\$]*[0-9A-Z_a-z\.\"]+\]
+VarToken=\[\%[0-9]+\]
+IdToken=\b[aA][sS]\b[ ]+[gG][oO]\b|\b[aA][sS]\b[\n][gG][oO]\b
