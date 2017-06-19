@@ -19,7 +19,7 @@ In order to find out more details please follow the details on the SAP community
 
 ## Prerequisites
 
-The provided source code is a .NET solution that you can recompile in your own environment. 
+The provided source code is a .NET solution. You will need Microsoft Visual Studio installed in your own environment to be able to recompile the provided source code.
 
 ## License
 
