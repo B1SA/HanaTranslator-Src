@@ -31,6 +31,6 @@ The provided source code is a .NET solution. You will need Microsoft Visual Stud
 
 ## Special thanks
 
-Thanks to the SAP Business One development team for his collaboration on publishing this tool.
+Thanks to the SAP Business One development team for his collaboration on getting this tool built and published this tool.
 
 
