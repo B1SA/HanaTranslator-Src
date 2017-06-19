@@ -27,7 +27,7 @@ The provided source code is a .NET solution. You will need Microsoft Visual Stud
 
  +The provided source code might use external frameworks and libraries, pay attention if you are building a product that you have the required licenses.
 
-The Query Migration Tool for Microsoft SQL Server to SAP HANA is released under the terms of the MIT license. See LICENSE for more information or see https://opensource.org/licenses/MIT.
++ The Query Migration Tool for Microsoft SQL Server to SAP HANA is released under the terms of the MIT license. See LICENSE for more information or see https://opensource.org/licenses/MIT.
 
 ## Special thanks
 
