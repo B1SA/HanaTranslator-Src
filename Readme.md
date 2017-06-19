@@ -1,4 +1,4 @@
-Query Migration Tool for Microsoft SQL Server to SAP HANA
+# Query Migration Tool for Microsoft SQL Server to SAP HANA
 
 The Query Migration Tool for Microsoft SQL Server to SAP HANA is a semi-automatic tool that helps convert most of the data-definition language (DDL) and data-manipulation language (DML).
 It will help you to convert structured query language (SQL) in the Microsoft SQL Server database (using T-SQL grammar) to SQL that can be used in the SAP HANA™ database (using ANSI-SQL grammar).
@@ -17,11 +17,11 @@ If SAP HANA does not support certain SQL, this tool will do the following:
 
 In order to find out more details please follow the details on the SAP community blog https://blogs.sap.com/2013/04/10/how-to-convert-sql-from-ms-sql-server-to-sap-hana/.
 
-Prerequisites
+## Prerequisites
 
 The provided source code is a .NET solution that you can recompile in your own environment. 
 
-License
+## License
 
  +There is no guaranty or support on the provided source code.
 
@@ -29,7 +29,7 @@ License
 
 The Query Migration Tool for Microsoft SQL Server to SAP HANA is released under the terms of the MIT license. See LICENSE for more information or see https://opensource.org/licenses/MIT.
 
-Special thanks
+## Special thanks
 
 Thanks to the SAP Business One development team for his collaboration on publishing this tool.
 
